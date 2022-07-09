@@ -6,4 +6,33 @@
 
 body {
   font-family: 'Outfit', sans-serif;
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+  background-color: hsl(212, 45%, 89%);
+}
+
+h1 {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+  margin: 20px;
+}
+
+p {
+  margin: 0 30px 10px 30px;
+}
+
+.container {
+  background-color: hsl(0, 0%, 100%);
+  width: 375px;
+  margin: 0 auto;
+  padding: 20px 20px 40px 20px;
+  margin-top: 70px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.qr-code {
+  width: 100%;
+  border-radius: 15px;
 }
